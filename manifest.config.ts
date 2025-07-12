@@ -16,6 +16,6 @@ export default defineManifest({
   },
   content_scripts: [{
     js: ['src/content/main.tsx'],
-    matches: ['https://*/*'],
+    matches: ['https://outlook.live.com/mail/0/*'],
   }],
 })
